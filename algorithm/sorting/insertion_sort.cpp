@@ -1,8 +1,7 @@
 #include "lib_sort.h"
 
-using namespace std;
-
-void insertion_sort(vector<int> &data) {
+void insertion_sort(vector<int> &data)
+{
     int i, j;
     for(i=1; i<(int)data.size(); i++)
     {
